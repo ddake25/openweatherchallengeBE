@@ -1,0 +1,87 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pklz
+*.pytorch
+*.pt
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+.ENV/
+
+# Conda environment folder (if created locally)
+conda/
+conda-env/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# -------------------------
+# FastAPI / Uvicorn / Build
+# -------------------------
+*.log
+logs/
+uvicorn.log
+
+# Cache
+.cache/
+.mypy_cache/
+.pytest_cache/
+pytestdebug.log
+
+# -------------------------
+# Environment & Secrets
+# -------------------------
+.env
+*.env
+.env.local
+.env.development
+.env.production
+
+# -------------------------
+# IDEs / Editors
+# -------------------------
+
+# VSCode
+.vscode/
+.history/
+.settings/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Generated Files
+# -------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------
+# Ollama (local model cache)
+# OPTIONAL: uncomment if you don't want to commit models
+# -------------------------
+# ~/.ollama/
+# ollama/
+
+# -------------------------
+# Project Artifacts
+# -------------------------
+*.json.tmp
+temp/
+tmp/
